@@ -5,7 +5,7 @@ Berikut ini adalah hal-hal yang perlu dipersiapkan dalam pembuatan REST API Serv
 4. Buat sebuah database, kemudian buat juga tabel dan isi didalamnya. Setelah itu ataur konfigurasi koneksi ke database pada rest_ci/application/config/database.php
 5. Buat file php baru di di rest_ci/application/controller dengan nama kontak.php.
 6. Isi file kontak.php dengan script seperti dibawah ini :
-
+```php
 <?php
 
 defined('BASEPATH') OR exit('No direct script access allowed');
@@ -72,4 +72,5 @@ class Kontak extends REST_Controller {
 
 }
 ?>
+```
 7. Selanjutnya sumber daya dari REST API tersebut dapat dimanfaatkan dengan aplikasi web, desktop, atau mobile yang menjadi client dari REST API tersebut.
